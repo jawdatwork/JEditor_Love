@@ -25,7 +25,7 @@ function LoadJScriptFile(file_name)
   return script
 end
 
-function love.load()
+function love.load() 
   example_script = LoadJScriptFile("test_j_script.j")
 
   Load_PressCompileAndRun()
